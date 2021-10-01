@@ -1,4 +1,12 @@
 p {
 background-color: gray;
   width: 500px;
+  text-align: center;
+}
+
+h1{
+  text-align: center;
+  text-weight: 400;
+  
+  
 }
