@@ -1,8 +1,8 @@
 p {
-  color: white;
+  text-align: center;
+  color: black;
   background-color: gray;
   width: 500px;
-  text-align: center;
 }
 
 h1{
@@ -23,6 +23,15 @@ a:hover {
   padding: 10px;
   margin-top: 25px;
 }
-h2{
+h2 {
   text-shadow: 2px 2px 5px orange;
+}
+
+.background {
+background-image: url("background1.jpg");
+ background-color: blue;
+}
+
+.listHead {
+  color: gold;
 }
