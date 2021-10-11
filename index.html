@@ -53,32 +53,63 @@
             <a href="https://www.lexingtonky.gov/jacobson-park">Jacobson Park</a><br />
         </details>
         </div>
-    </div>
-    <form action="http:examples.funwebdev.com/process.php" method="post">
+    </div> <br>
+
+    <form action="http://examples.funwebdev.com/process.php" method="post">
+       <fieldset>
+         <legend>Receive updates on court info</legend>
         <label for="name">Name:</label>
         <input type="text" id="name" name="Name" required><br><br>
         <label for="Age">Age:</label>
         <input type="number" id="Age" name="Age" min="1" max="120"> <br><br>
-        <label for="Where">Where are you from:</label>
-        <input type="text" id="Where" name="Where"> <br><br>
+         <label>What neighborhood are you from:</label>
+
+         <select name = "Neighborhood">
+          <optgroup label="Northside">
+            <option>Masterson Station</option>
+            <option>Georgetown St</option>
+          </optgroup>
+
+           <optgroup label="Eastside">
+            <option>Bryan Station</option>
+            <option>Castlewood</option>
+          </optgroup>
+
+           <optgroup label="Southside">
+            <option>Polo Club</option>
+            <option>Buckhorn</option>
+          </optgroup>
+
+           <optgroup label="Westside">
+          <option>Garden Springs</option>
+          <option>Beaumont</option>
+          <option>Cardinal Valley</option>
+          </optgroup>
+          </select>
+          <br><br>
+
         BasketBall Position:<br>
         <label for="PG">Point Guard</label>
-        <input type="checkbox" name="Point Guard" id="Point Guard"><br>
-        <label for="SG">Small Guard</label>
-        <input type="checkbox" name="Small Guard" id="Small Guard"><br>
+        <input type="checkbox" name="Point Guard" id="PG"><br>
+        <label for="SG">Shooting Guard</label>
+        <input type="checkbox" name="Shooting Guard" id="SG"><br>
         <label for="SF">Small Forward</label>
-        <input type="checkbox" name="Small Forward" id="Small Forward"><br>
+        <input type="checkbox" name="Small Forward" id="SF"><br>
         <label for="PF">Power Forward</label>
-        <input type="checkbox" name="Power Forward" id="Power Forward"><br>
+        <input type="checkbox" name="Power Forward" id="PF"><br>
         <label for="C">Center</label>
-        <input type="checkbox" name="Center" id="Center"><br>
+        <input type="checkbox" name="Center" id="C"><br><br>
         <label for="email">Email:</label>
         <input type="email" id="email" name="email" required><br><br>
         <input type="submit" value="Submit">
         <input type="reset" value="Reset">
+        </select>
+       </fieldset>
     </form>
-    
+
+    <br>
     <table>
+      <caption>Court Listing</caption>
         <tr>
             <th>Facility Name</th>
             <th>Location</th>
@@ -101,7 +132,7 @@
             <td>Jacobson Park</td>
             <td>4001 Athens-Boonesboro Rd</td>
             <td>Public</td>
-            <td>Dusk to Dawn</td>
+            <td>Dawn to Dusk</td>
         </tr>
     </table>
 
@@ -109,3 +140,4 @@
 </body>
 
 </html>
+
