@@ -35,13 +35,7 @@ background-image: url("background1.jpg");
 .listHead {
   color: gold;
 }
-body {
-    background-color: lightblue;
-    background-image: url("#");
-}
-.background {
-    background-image: url("image/nflLogo.jpg");
-}
+
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
