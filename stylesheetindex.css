@@ -42,7 +42,23 @@ table {
     width: 100%;
 }
 
-td, th {
+caption {
+  border: 1px solid #dddddd;
+    font-size:1cm;
+    font-family: Georgia;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+  border: 1px solid #dddddd;
+      font-family: Calibri;
+   font-size:.5cm;
+    text-align: left;
+    padding: 8px;
+  background-color: lightblue;
+}
+ td {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
@@ -52,3 +68,4 @@ tr:nth-child(even) {
     background-color: #dddddd;
 }
 tr:hover {background-color: yellow;}
+
