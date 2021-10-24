@@ -67,5 +67,70 @@ th {
 tr:nth-child(even) {
     background-color: #dddddd;
 }
-tr:hover {background-color: yellow;}
 
+tr:hover {
+  background-color: yellow;
+}
+
+figure.thumbnail:hover{
+    padding: 10px;
+    background: #e1e1e1;
+    position: top;
+  
+      /* Drop Shadow */
+    box-shadow: 0 0 15px orange;
+
+  /*display image despite*/
+    visibility: visible;
+  }
+
+  figcaption.popup{
+    padding: 10px;
+    background: #e1e1e1;
+    position: absolute;
+
+    /* Drop Shadow */
+    box-shadow: 0 0 15px orange;
+
+    /* hides until hover */
+    visibility: hidden;
+  }
+
+  figure.thumbnail:hover figcaption.popup{
+    position: center;
+    top: 30px;
+    left: 100px;
+
+    /*display image upon hover*/
+    visibility: visible;
+  }
+
+  nav{
+    width: 15%;
+    background: orange;
+  }
+
+  .menu{
+    position:absolute;
+    left: -210px;
+  }
+
+  .menu:hover{
+    left: 0;
+    transition: left .5s ease-out;
+  }
+
+  .menu{
+    transition: left .5s ease-out;
+  }
+
+  .courts {
+    width: 33.33%;
+    float:left;
+}
+
+.form {
+    width: 33.33%;
+    background: grey;
+    float: right;
+}
