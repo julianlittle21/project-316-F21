@@ -31,13 +31,25 @@
         <li>Contact Us</li>
     </ul>
     </nav>
+    
     <section class = "sign_up">
-        <h2>Log In</h2>
+        <h2>Sign Up</h2>
         <div class = "sign-up">
-            <form action= "~~~~~~" method= "post">
-                <input type="text" name="Username" placeholder= "Username/Email...">
-                <input type="password" name="Password" placeholder= "Password...">
-                <button type="submit" name="submit">Log In</button>
+            <form action= "signup.php" method= "POST">
+                <input type="text" name="uid" placeholder= "Username...">
+                <input type="password" name="pwd" placeholder= "Password...">
+                <button type="submit" name="submit">Create Account</button>
+            </form>
+            </div>
+    </section>
+
+    <section class = "log_in">
+        <h2>Login</h2>
+        <div class = "log-in">
+            <form action= "login.php" method= "POST">
+                <input type="text" name="uid" placeholder= "Username...">
+                <input type="password" name="pwd" placeholder= "Password...">
+                <button type="submit" name="submit">Submit</button>
             </form>
             </div>
     </section>
@@ -158,4 +170,3 @@
 </body>
 
 </html>
-
